@@ -40,7 +40,7 @@ function removeKFromList(l, k ) {
   l=l.next
 }
  arr.reverse()
-   arr.forEach((e,i)=>{ 
+   arr.map((e,i)=>{ 
      list={value:e, next:list}
     })
   // throw new NotImplementedError('Not implemented');
